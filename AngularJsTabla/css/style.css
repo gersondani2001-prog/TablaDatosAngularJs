@@ -1,0 +1,45 @@
+/*Codigo de estilo en css3 estilos en cascada*/
+
+/* body margin, padding y estilo de border */
+body{
+    /*  */
+    padding: 0 !important;
+    margin: 0 !important;
+    /* compatibilidad */
+    box-sizing: border-box;
+    /* edge - safari */
+    -webkit-box-sizing: border-box;
+    /*mozilla - firefox*/
+    -moz-box-sizing: border-box;
+    /*opera*/
+    -o-box-sizing: border-box;
+    background: linear-gradient(to right, red , yellow);
+}
+/* codigo del estilo */
+.table{
+    background: #ffffff !important; 
+    margin: 0 auto !important;
+    margin-top:5% !important;
+    border-collapse: collapse;
+    width:500px;
+    height:100px;
+}
+.changesty{
+    text-align: center;
+}
+.table, .changesty, .changety, .clean{
+    border: black 2px solid !important;
+}
+.table > .head{
+    background:red;
+}
+.table > .foot{
+    background:yellow;
+    text-align:center;
+}
+  
+  
+  
+
+
+

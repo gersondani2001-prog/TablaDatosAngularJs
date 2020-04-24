@@ -1,0 +1,84 @@
+<!-- Codigo principal de la pagina web portada html5 -->
+<!DOCTYPE html>
+<!-- Lenguaje español guatemala html archivo codigo principal -->
+<html lang="es-GT" ng-app="app">
+<!-- Enlaces y Componentes -->
+<head>
+
+    <!-- jquery js -->
+    <script src="lib/jquery.js"></script>
+    <!-- caracteres especiales -->
+    <meta charset="UTF-8">
+    <!-- web responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compatibilidad con internet explore -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Descripcion -->
+    <meta name="description" content="Pagina Web componentes de bootstrap, angular, jquery, react y muchas cosas mas">
+    <!-- Nombre -->
+    <title>Templates Example</title>
+    <!-- Bootstrap enlace css -->
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+    <!-- link de css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- link icono -->
+    <link rel="icon" href="img/icono.png">
+    <!-- iconos -->
+    <link rel="stylesheet" href="resources/iconos/fonts/style.css">
+
+</head>
+<!-- Cuerpo de la pagina web -->
+<body ng-controller="appCtrl">
+
+    <!-- codigo -->
+    <!-- codigo de tabla de datos usuarios api y arreglo de angular js  -->
+    <table class="table" >
+        <thead class="head">
+          <tr class="only1">
+            <th class="changesty" >Nombre</th>
+            <th class="changesty" >Edad</th>
+            <th class="changesty" >Dirección</th>
+            <th class="changesty" >Pais</th>
+            <th class="changesty" >Telefono</th>
+          </tr>
+        </thead>
+        <tbody class="body">
+          <tr class="only2" ng-repeat="x in arreglo">
+            <td class="changety" >{{x.nom}}</td>
+            <td class="changety" >{{x.edad}} </td>
+            <td class="changety" >{{x.direc}}</td>
+            <td class="changety" >{{x.pais}}</td>
+            <td class="changety" >{{x.tel}}</td>
+          </tr>
+        </tbody>
+        <tfoot class="foot">
+          <tr class="only3">
+            <td class="clean">--</td>
+            <td class="clean">--</td>
+            <td class="clean">--</td>
+            <td class="clean">--</td>
+            <td class="clean">--</td>
+          </tr>
+        </tfoot>
+      </table>
+  
+    
+
+
+
+
+    <!-- Scripts librerias de js -->
+    <!-- Angular js -->
+    <script src="lib/angular.js"></script>
+    <!-- cdn de bootstrap js -->
+    <script src="lib/bootstrap/js/bootstrap.js"></script>
+    <!-- script de la pagina js principal -->
+    <script src="js/script.js"></script>  
+
+</body>
+</html>
+
+
+
+
+
